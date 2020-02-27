@@ -1,0 +1,3 @@
+<block wx:for="{{ranklist}}">
+  <view>{{index+1}}：  {{item.sn}}   {{item.name}}  {{item.score}}</view>
+</block>
